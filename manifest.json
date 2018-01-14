@@ -1,0 +1,23 @@
+{
+
+  "manifest_version": 2,
+  "name": "Youtube search engine",
+  "description": "Adds a Youtube engine that searches Youtube.com",
+  "version": "1.0",
+  "applications": {
+    "gecko": {
+      "strict_min_version": "55"
+    }
+  },
+  "chrome_settings_overrides": {
+    "search_provider": {
+      "name": "Youtube",
+      "search_url": "https://www.youtube.com/results?search_query={searchTerms}",
+      "keyword": "youtube",
+      "favicon_url": "https://www.youtube.com/favicon.ico",
+      "is_default": false
+    }
+  }
+
+}
+
