@@ -3,7 +3,13 @@
   "manifest_version": 2,
   "name": "Awesome Youtube Omnibar",
   "description": "Adds a Youtube engine in the Awesomebar just like in Chrome's omnibar. Type 'youtube foobar' and you will see the youtube search results page for 'foobar'",
-  "version": "1.0.0",
+  "version": "1.1.0",
+	"icons": {
+		"16": "images/icon-16.png",
+		"48": "images/icon-48.png",
+		"96": "images/icon-96.png",
+		"128": "images/icon-128.png"
+  },
   "chrome_settings_overrides": {
     "search_provider": {
       "name": "Youtube",
