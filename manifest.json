@@ -1,14 +1,9 @@
 {
 
   "manifest_version": 2,
-  "name": "Youtube search engine",
-  "description": "Adds a Youtube engine that searches Youtube.com",
-  "version": "1.0",
-  "applications": {
-    "gecko": {
-      "strict_min_version": "55"
-    }
-  },
+  "name": "Awesome Youtube Omnibar",
+  "description": "Adds a Youtube engine in the Awesomebar just like in Chrome's omnibar. Type 'youtube foobar' and you will see the youtube search results page for 'foobar'",
+  "version": "1.0.0",
   "chrome_settings_overrides": {
     "search_provider": {
       "name": "Youtube",
